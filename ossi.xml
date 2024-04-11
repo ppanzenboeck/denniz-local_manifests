@@ -4,6 +4,10 @@
   <remote name="ossi-gitlab" fetch="https://gitlab.com/nattolecats/" revision="lineage-21" />
   <remote name="panz" fetch="https://github.com/ppanzenboeck" revision="derp14"/>
 
+  <!-- My sauce -->
+  <remove-project name="packages_apps_OmniStyle"/>
+  <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="panz" revision="debloat"/>
+  
   <!-- Denniz Device Tree -->
   <project path="device/oplus/denniz" name="device_oplus_denniz" remote="panz"/>
 
@@ -38,5 +42,6 @@
   <project path="packages/apps/prebuilt-apps" name="android_packages_apps_prebuilt-apps" remote="ossi" />
 
   <!-- qpr2 build fix -->
+  <remove-project name="platform/external/dagger2"/>
   <project path="external/dagger2" name="platform/external/dagger2" remote="aosp" revision="android14-qpr2-release"/>
 </manifest>
