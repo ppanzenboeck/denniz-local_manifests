@@ -27,7 +27,7 @@
   <project path="device/oplus/camera" name="device-oplus-camera-denniz" remote="panz-gitlab" />
 
   <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="prebuilts_clang_host_linux-x86_clang-r487747" remote="panz-gitlab" clone-depth="1" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="prebuilts-clang-host-linux-x-86-clang-r-487747" remote="panz-gitlab" clone-depth="1" revision="master" />
 
   <!-- SEPolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="panz" />
