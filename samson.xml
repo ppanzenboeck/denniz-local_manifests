@@ -1,5 +1,5 @@
 <manifest>
-  <remote name="panz" fetch="https://github.com/ppanzenboeck" revision="lineage-21"/>
+  <remote name="panz" fetch="https://github.com/ppanzenboeck" revision="lineage-21.0"/>
 
   <!-- My sauce -->
   <remove-project name="packages_apps_OmniStyle"/>
@@ -18,12 +18,8 @@
   <project path="vendor/samsung/gta4xlwifi" name="vendor_samsung_gta4xlwifi" remote="panz"/>
   <project path="vendor/samsung/gta4xl-common" name="vendor_samsung_gta4xl-common" remote="panz"/>
 
-  <!-- samson common trees -->
-  <project path="device/samsung/gta4xl-common" name="device_samsung_gta4xl-common" remote="panz" revision="derp14"/>
-
   <!-- Hardware -->
-  <remove-project name="hardware_samsung"/>
-  <project path="hardware/samsung" name="hardware_samsung" remote="panz" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="panz"/>
   <project path="hardware/samsung_slsi-linaro/exynos" name="hardware_samsung_slsi-linaro_exynos" remote="panz" />
   <project path="hardware/samsung_slsi-linaro/graphics" name="hardware_samsung_slsi-linaro_graphics" remote="panz" />
   <project path="hardware/samsung_slsi-linaro/openmax" name="hardware_samsung_slsi-linaro_openmax" remote="panz" />
