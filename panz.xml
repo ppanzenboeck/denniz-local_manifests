@@ -13,7 +13,7 @@
   <project path="vendor/oplus/denniz" name="vendor_oplus_denniz" remote="panz" revision="lineage-21"/>
 
   <!-- MT6893 Common -->
-  <project path="device/oplus/mt6893-common" name="device_oplus_mt6893-common" remote="panz" />
+  <project path="device/oplus/mt6893-common" name="device_oplus_mt6893-common" remote="panz" revision="derp14"/>
   <project path="vendor/oplus/mt6893-common" name="vendor_oplus_mt6893-common" remote="panz" />
   <project path="kernel/oplus/mt6893" name="kernel_oplus_mt6893" remote="panz" />
 
