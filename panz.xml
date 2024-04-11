@@ -24,7 +24,7 @@
   <project path="hardware/oplus" name="hardware_oplus" remote="panz" revision="derp14" />
   
   <!-- Oplus Camera -->
-  <project path="device/oplus/camera" name="device_oplus_camera-denniz" remote="panz-gitlab" />
+  <project path="device/oplus/camera" name="device-oplus-camera-denniz" remote="panz-gitlab" />
 
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="prebuilts_clang_host_linux-x86_clang-r487747" remote="panz-gitlab" clone-depth="1" revision="master" />
