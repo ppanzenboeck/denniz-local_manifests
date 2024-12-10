@@ -1,0 +1,23 @@
+<manifest>
+  <remote name="panz" fetch="https://github.com/ppanzenboeck" revision="derp15"/>
+  <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-22.0"/>
+
+  
+  <!-- op6 device trees -->
+  <project path="device/oneplus/guacamole" name="device_oneplus_guacamole" remote="panz" revision="derp15"/>
+  <project path="device/oneplus/sm8150-common" name="device_oneplus_sm8150-common" remote="panz" revision="derp15"/>
+
+  <!-- op6 kernel tree -->
+  <project path="kernel/oneplus/sm8150" name="kernel_oneplus_sm8150" remote="panz" revision="lineage-22.0"/>
+  <!-- ksu -->
+  <!-- <project path="kernel/oneplus/sdm845" name="kernel_oneplus_sdm845" remote="panz" revision="derp15-ksu"/> -->
+
+  <!-- op6 vendor trees -->
+  <project path="vendor/oneplus/guacamole" name="vendor_oneplus_guacamole" remote="panz" revision="lineage-22.0"/>
+  <project path="vendor/oneplus/sm8150-common" name="vendor_oneplus_sm8150-common" remote="panz" revision="lineage-22.0"/>
+
+  <!-- Hardware -->
+  <project path="hardware/oplus" name="hardware_oplus" remote="lineage" revision="lineage-22.0"/>
+
+  <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="v4a" remote="github" />
+</manifest>
