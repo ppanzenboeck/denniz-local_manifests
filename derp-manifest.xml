@@ -1,0 +1,34 @@
+<manifest>
+  <remote name="panz" fetch="https://github.com/ppanzenboeck" revision="lineage-22.1"/>
+  <remote name="lineagee" fetch="https://github.com/LineageOS" revision="lineage-22.1"/>
+  <remote name="dmqx" fetch="https://github.com/dmXq-development" revision="lineage-22.1"/>
+
+
+  <project path="device/samsung/dm3q" name="device_samsung_dm3q" remote="panz" revision="derp15"/>
+  <project path="device/samsung/sm8550-common" name="device_samsung_sm8550-common" remote="panz" revision="derp15"/>
+
+  <project path="kernel/samsung/sm8550" name="kernel_samsung_sm8550" remote="panz"/>
+  <project path="kernel/samsung/sm8550-devicetrees" name="kernel_samsung_sm8550-devicetrees" remote="panz"/>
+  <project path="kernel/samsung/sm8550-modules" name="kernel_samsung_sm8550-modules" remote="panz"/>
+
+  <project path="vendor/samsung/dm3q" name="vendor_samsung_dm3q" remote="panz"/>
+  <project path="vendor/samsung/sm8550-common" name="vendor_samsung_sm8550-common" remote="panz"/>
+
+  <project path="hardware/samsung" name="hardware_samsung-dmxq" remote="panz" revision="lineage-22.0"/>
+  
+  <!--
+  <project path="device/samsung/dm3q" name="device_samsung_dm3q" remote="panz" revision="derp15"/>
+  <project path="device/samsung/sm8550-common" name="device_samsung_sm8550-common" remote="panz" revision="derp15">
+
+  <project path="kernel/samsung/sm8550" name="kernel_samsung_sm8550" remote="panz" revision="android15-stable"/>
+  <project path="kernel/samsung/sm8550-devicetrees" name="kernel_samsung_sm8550-devicetrees" remote="panz" revision="lineage-22.0"/>
+  <project path="kernel/samsung/sm8550-modules" name="kernel_samsung_sm8550-modules" remote="panz" revision="lineage-22.0"/>
+
+  <project path="vendor/samsung/dm3q" name="vendor_samsung_dm3q" remote="panz" revision="lineage-22.0"/>
+  <project path="vendor/samsung/sm8550-common" name="vendor_samsung_sm8550-common" remote="panz" revision="derp15"/>
+
+  <project path="hardware/samsung" name="hardware_samsung" remote="panz" revision="lineage-22.0"/>
+  -->  
+
+  <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="v4a" remote="github" />
+</manifest>
