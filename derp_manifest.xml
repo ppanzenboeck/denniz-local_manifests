@@ -1,13 +1,15 @@
 <manifest>
   <remote name="panz" fetch="https://github.com/ppanzenboeck" revision="derp15.1"/>
+  <remote name="harsh" fetch="https://gitlab.com/dev-harsh1998" revision="lineage-21"/>
   
   <!-- device tree -->
   <project path="device/xiaomi/nabu" name="device_xiaomi_nabu" remote="panz" revision="derp15.1"/>
 
   <!-- kernel tree -->
   <project path="kernel/xiaomi/nabu" name="kernel_xiaomi_nabu" remote="panz" revision="derp15.1"/>
-  <!-- ksu -->
-  <!-- <project path="kernel/xiaomi/nabu" name="kernel_xiaomi_nabu" remote="panz" revision="derp15.1"/> -->
   
+  <!-- vendor tree -->
+  <project path="vendor/xiaomi/nabu" name="android_vendor_xiaomi_nabu" remote="harsh" revision="lineage-21"/>
+
   <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="v4a" remote="github" />
 </manifest>
