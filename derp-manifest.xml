@@ -3,15 +3,15 @@
   <remote name="lineagee" fetch="https://github.com/LineageOS" revision="lineage-22.1"/>
   <remote name="ovaltine-github" fetch="https://github.com/lineage-ovaltine-dev" revision="lineage-22.1"/>
   <remote name="ovaltine-gitlab" fetch="https://gitlab.com/lineage-ovaltine-dev/proprietary_vendor_oneplus" revision="lineage-22.1"/>
-  
-  <project path="device/oneplus/ovaltine-github" name="android_device_oneplus_ovaltine" remote="ovaltine-github"/>
+
+  <project path="device/oneplus/ovaltine" name="android_device_oneplus_ovaltine" remote="ovaltine-github"/>
   <project path="device/oneplus/sm8450-common" name="android_device_oneplus_sm8450-common" remote="ovaltine-github"/>
   
   <project path="kernel/oneplus/sm8450" name="android_kernel_oneplus_sm8450" remote="ovaltine-github"/> 
   <project path="kernel/oneplus/sm8450-devicetrees" name="android_kernel_oneplus_sm8450-devicetrees" remote="ovaltine-github"/>
   <project path="kernel/oneplus/sm8450-modules" name="android_kernel_oneplus_sm8450-modules" remote="ovaltine-github"/>
 
-  <project path="vendor/oneplus/ovaltine-github" name="ovaltine" remote="ovaltine-gitlab"/>
+  <project path="vendor/oneplus/ovaltine" name="ovaltine" remote="ovaltine-gitlab"/>
   <project path="vendor/oneplus/sm8450-common" name="sm8450-common" remote="ovaltine-gitlab"/>
 
   <project path="hardware/oplus" name="android_hardware_oplus" remote="ovaltine-github" revision="lineage-21-8450"/>  
