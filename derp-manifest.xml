@@ -14,7 +14,7 @@
   <project path="vendor/oneplus/ovaltine" name="ovaltine" remote="ovaltine-gitlab"/>
   <project path="vendor/oneplus/sm8450-common" name="sm8450-common" remote="ovaltine-gitlab"/>
 
-  <project path="hardware/oplus" name="android_hardware_oplus" remote="ovaltine-github" revision="lineage-21-8450"/>  
+  <project path="hardware/oplus" name="android_hardware_oplus" remote="ovaltine-github" revision="lineage-21"/>  
 
   <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="v4a" remote="github" />
 </manifest>
